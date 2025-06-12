@@ -10,7 +10,7 @@ import { Link, useLocation, Outlet } from 'react-router-dom'
 
 // 导航配置
 const navigation = [
-  { name: '仪表板', href: '/', icon: Monitor, active: true, badge: null, description: 'Overview' },
+  { name: '首页大屏', href: '/', icon: Monitor, active: true, badge: null, description: 'Overview' },
   { name: '数据分析', href: '/analytics', icon: BarChart3, active: false, badge: null, description: 'Analytics' },
   { name: '用户管理', href: '/users', icon: UserCheck, active: false, badge: '1.2K', description: 'Users' },
   { name: '订单中心', href: '/orders', icon: Package, active: false, badge: '23', description: 'Orders' },
@@ -113,8 +113,8 @@ function Layout({ children }: LayoutProps) {
                 <Layers className="w-7 h-7 text-white" />
               </div>
               <div>
-                <h2 className="text-2xl font-black text-gray-900">DataHub</h2>
-                <p className="text-xs text-gray-500 font-semibold uppercase tracking-wider">Enterprise Analytics</p>
+                <h2 className="text-4xl font-black text-gray-900">DataHub</h2>
+              
               </div>
             </div>
             <button 
